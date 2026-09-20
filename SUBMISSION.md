@@ -70,6 +70,9 @@ I approached it by pulling the handler out and making it it's own exported funct
 - fix git parsing 
 - make it so we can change allowlist, so if we are running specific we can run different test like pytest and make test 
 
+//note 
+//my CI is failing, because my mcp test points was set to test repo, which is only on my computer, on github the folder doens't exist so it gives an error 
+i just found out that the fix for this is to create temporory repo 
 
 ## Approximate focused-work time
 
